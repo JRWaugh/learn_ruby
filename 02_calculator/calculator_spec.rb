@@ -79,14 +79,18 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+    expect(multiply(2,4)).to eq(8)
+  end
 
   it "multiplies several numbers"
   
 end
 
 describe "#power" do
-  it "raises one number to the power of another number"
+  it "raises one number to the power of another number" do 
+    expect(power(2,3)).to eq(8)
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
